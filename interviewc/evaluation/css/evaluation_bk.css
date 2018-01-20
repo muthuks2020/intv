@@ -1,0 +1,230 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+	float:left;
+	width:100%;
+}
+body {
+	line-height: 1;
+	font-family: sans-serif;
+	font-size: 82%;
+	color: #444;
+	height:100%;
+	
+	/*text-shadow: 0 1px 0 #DFDFDC;*/
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+/*table {
+	border-collapse: collapse;
+	border-spacing: 0;
+	border:1px solid #ccc;
+	
+}
+table td{
+border:1px solid #ccc;
+font-size: 15px;    color: rgb(88, 88, 88);
+padding: 0px 0px 0px 10px;
+word-wrap:break-word !important;
+}*/
+ table {
+	border-collapse: collapse;
+	border-spacing: 0;
+	border:1px solid #ccc; 
+	table-layout:fixed;
+	 }
+table td {
+	border:1px solid #ccc; 
+   font-size: 15px;
+   word-wrap:break-word;
+   }
+
+table th{
+border-right: 2px solid #FFFFFF;
+background: antiquewhite;
+font-size: 13px;
+font-weight: bold;
+color: rgb(88, 88, 88);
+padding: 10px 0px 10px 10px;
+}
+
+.wrapper{
+width:1170px;
+margin:0 auto;
+min-height:100%;
+position:relative;
+}
+/*.container{
+width:100%;
+border:1px solid #ccc;
+float:left
+}*/
+
+.head{
+width:100%;
+text-align:center;
+background:#8BCD35;
+height: 60px;
+float:left;
+border-top: 3px solid #ffa320;
+}
+
+#tit{
+position:relative;
+top: 15px;}
+.head-ash{
+
+background: #9A9C9E;
+float: left;
+width: 100%;
+padding: 10px 0px 10px 0px;
+border-bottom: 4px solid #F0F0F0;
+
+}
+
+.head-ash img{
+    position: absolute;
+    top: 187px;
+	width:1170px;
+}
+
+.main{
+width:100%;
+min-height:100%;
+float:left;
+}
+.logo img{
+width: 90px;
+height: 25px;
+margin: 0px 0px 0px 20px;
+position: absolute;
+top: 22px;
+background: #EBEBEB;
+}
+#brdr{
+border-right:none;
+}
+#select{
+background:url(../assets/images/tik.jpg);
+width: 25px;
+height: 25px;
+border: 1px solid #fff;
+margin: 5px;
+cursor:pointer;
+}
+
+#cros{
+background:url(../assets/images/cros.jpg);
+width: 25px;
+height: 25px;
+border: 1px solid #fff;
+margin: 5px;
+cursor:pointer;
+}
+
+.head-ash h2{
+color:#ffffff;
+padding:0px 0px 0px 10px;
+font-size:18px;
+font-weight:bold;
+}
+button a
+{
+	color:#FFF;
+	text-decoration:none;
+	
+}
+button a:hover
+{
+	color:#FFF;
+	text-decoration:none;
+}
+
+#btn-spc{
+margin: 5px;
+}
+#col-wid{
+width: 300px;}
+
+
+
+/*Footer*/
+.navbar-static-top {
+  margin-bottom:20px;
+}
+
+i {
+  font-size:18px;
+}
+  
+  
+footer {
+  /*margin-top:400px !important;*/
+  padding-top:20px !important;
+  padding-bottom:20px !important;
+  background-color:#efefef !important;
+  top:925px;
+  width:100%;
+  position:fixed;
+  
+}
+
+.nav>li .count {
+  position: absolute;
+  bottom: 12px;
+  right: 8px;
+  font-size: 10px;
+  font-weight: normal;
+  background: rgba(51,200,51,0.55);
+  color: rgba(255,255,255,0.9);
+  line-height: 1em;
+  padding: 2px 4px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  border-radius: 10px;
+}
+.boxAlign{
+	padding:20px 0 0 30px;
+}
+
+
+
+
+
